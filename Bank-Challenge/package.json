@@ -1,0 +1,26 @@
+{
+  "name": "bank-challenge",
+  "version": "1.0.0",
+  "description": "bank challenge attempt",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spawton/bank-challenge.git"
+  },
+  "author": "Amy Spawton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spawton/bank-challenge/issues"
+  },
+  "homepage": "https://github.com/Spawton/bank-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^4.4.0"
+  }
+}

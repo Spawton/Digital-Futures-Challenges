@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+    <h1>
+        <%= name %>'s turn
+    </h1>
+
+    <form action="/winner" method="post">
+        <input id="play-rock" type="submit" value="rock" name="choice" />
+        <input id="play-paper" type="submit" value="paper" name="choice" />
+        <input id="play-scissors" type="submit" value="scissors" name="choice" />
+    </form>
+</body>
+
+</html>
